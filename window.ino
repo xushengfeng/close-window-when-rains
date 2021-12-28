@@ -19,7 +19,7 @@
 #define LED_BUILTIN 2   // Set the GPIO pin where you connected your test LED or comment this line out if your dev board has a built-in LED
 
 // Set these to your desired credentials.
-const char *ssid = "ESP32";
+const char *ssid = "AUTO-WINDOW";
 const char *password = "";
 
 WiFiServer server(80);
@@ -31,15 +31,18 @@ int o_or_c = HIGH;
 
 
 void setup() {
-  myservo.attach(14);  // 控制线连接数字9
+  // 舵机
+  myservo.attach(14);
+  // 雨滴
   pinMode(35, INPUT);
+  // LED
   pinMode(LED_BUILTIN, OUTPUT);
 
   Serial.begin(115200);
   Serial.println();
   Serial.println("Configuring access point...");
 
-  // You can remove the password parameter if you want the AP to be open.
+  // WIFI AP
   WiFi.softAP(ssid, password);
   IPAddress myIP = WiFi.softAPIP();
   Serial.print("AP IP address: ");
@@ -111,7 +114,6 @@ void loop() {
     o_or_c = digitalRead(35) ;
     if (digitalRead(35) == HIGH) { // 有水
       close_window();
-
     }
     else { // 无水
       open_window();
@@ -122,17 +124,21 @@ void loop() {
 
 
 void open_window() {
-  digitalWrite(LED_BUILTIN, HIGH);
-  for (pos = 10; pos <= 125; pos ++) {
-    myservo.write(pos);
-    delay(5);
+  if (myservo.read() != 125) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    for (pos = 10; pos <= 125; pos ++) {
+      myservo.write(pos);
+      delay(5);
+    }
   }
 }
 
 void close_window() {
-  digitalWrite(LED_BUILTIN, LOW);
-  for (pos = 120; pos >= 10; pos --) {
-    myservo.write(pos);
-    delay(5);
+  if (myservo.read() != 10) {
+    digitalWrite(LED_BUILTIN, LOW);
+    for (pos = 120; pos >= 10; pos --) {
+      myservo.write(pos);
+      delay(5);
+    }
   }
 }
