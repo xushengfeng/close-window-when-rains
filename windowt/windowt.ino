@@ -71,9 +71,16 @@ void loop() {
             client.println();
 
             // the content of the HTTP response follows the header:
-            client.print("<meta charset='utf-8'><title></title>");
-            client.print("<style>.main {display: flex;flex-direction: column;align-items: center;}a {text-decoration: none;color: #000}.b {margin: 16px;padding: 16px;background-color: #ddd;border-radius: 8px;}</style>");
-            client.print("<div class='main'><a href='/H'><div class='b'>开窗</div></a><a href='/L'><div class='b'>关窗</div></a></div>");
+            client.print("<head><meta charset='utf-8'><meta http-equiv='refresh' content='2;url=/'><title></title></head>");
+            client.print("<style>.main {display: flex;height: 100%;flex-direction: column;justify-content: center;align-items: center;}p{font-size: 3rem;}.b_f {display: flex;justify-content: center;align-items: center;}a {text-decoration: none;color: #000}.b {margin: 16px;padding: 16px;background-color: #ddd;border-radius: 8px;font-size: 2rem;}</style>");
+            client.print("<div class='main'><p>现在外面 <span id='rain'>");
+            if (digitalRead(35) == HIGH) {
+              client.print("有");
+            } else {
+              client.print("无");
+            }
+            client.print("</span>雨</p><div class='b_f'><a href='/H'><div class='b'>开窗</div></a><a href='/L'><div class='b'>关窗</div></a></div></div>");
+
 
             // The HTTP response ends with another blank line:
             client.println();
@@ -88,10 +95,10 @@ void loop() {
 
         // Check to see if the client request was "GET /H" or "GET /L":
         if (currentLine.endsWith("GET /H")) {
-          open_window();          
+          open_window();
         }
         if (currentLine.endsWith("GET /L")) {
-          close_window();  
+          close_window();
         }
       }
     }
