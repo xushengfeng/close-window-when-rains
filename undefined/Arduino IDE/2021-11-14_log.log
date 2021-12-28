@@ -1,0 +1,305 @@
+2021-11-14 12:47:29 Using browser-only version of superagent in non-browser environment
+2021-11-14 12:47:29 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2021-11-14 12:47:29 root INFO Configuration directory URI: 'file:///home/xsf/.theia'
+2021-11-14 12:47:29 root ERROR (node:8041) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2021-11-14 12:47:29 root INFO Theia app listening on http://localhost:45601.
+2021-11-14 12:47:29 root WARN The local plugin referenced by local-dir:/home/xsf/.arduinoIDE/extensions does not exist.
+2021-11-14 12:47:29 root WARN The local plugin referenced by local-dir:/home/xsf/.arduinoIDE/plugins does not exist.
+2021-11-14 12:47:29 root WARN The local plugin referenced by local-dir:/home/xsf/.arduinoProIDE/plugins does not exist.
+2021-11-14 12:47:29 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-14 12:47:29 root INFO Resolved "cortex-debug" to a VS Code extension "cortex-debug@0.3.10" with engines:
+2021-11-14 12:47:29 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-14 12:47:29 root INFO Resolved "vscode-arduino-tools" to a VS Code extension "vscode-arduino-tools@0.0.1-beta.1" with engines:
+2021-11-14 12:47:29 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-14 12:47:29 root INFO Resolved "vscode-builtin-cpp" to a VS Code extension "cpp@1.52.1" with engines:
+2021-11-14 12:47:29 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-14 12:47:29 root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.46.1" with engines:
+2021-11-14 12:47:29 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-14 12:47:29 root INFO Resolved "vscode-builtin-json-language-features" to a VS Code extension "json-language-features@1.46.1" with engines:
+2021-11-14 12:47:29 root INFO Deploying backend plugin "cortex-debug@0.3.10" from "/opt/arduino-ide/resources/app/plugins/cortex-debug/extension/dist/extension"
+2021-11-14 12:47:29 root INFO Deploying backend plugin "vscode-arduino-tools@0.0.1-beta.1" from "/opt/arduino-ide/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle"
+2021-11-14 12:47:29 root INFO Deploying backend plugin "cpp@1.52.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-cpp/extension"
+2021-11-14 12:47:29 daemon INFO Starting daemon from /opt/arduino-ide/resources/app/node_modules/arduino-ide-extension/build/arduino-cli...
+2021-11-14 12:47:29 root INFO Deploying backend plugin "json@1.46.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-json/extension"
+2021-11-14 12:47:29 root INFO Deploying backend plugin "json-language-features@1.46.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain"
+2021-11-14 12:47:29 root INFO Deploy plugins list took: 43.2 ms
+2021-11-14 12:47:29 daemon INFO Using config file: /home/xsf/.arduinoIDE/arduino-cli.yaml
+2021-11-14 12:47:29 daemon INFO arduino-cli version 0.19.1
+2021-11-14 12:47:29 daemon INFO Setting up Prometheus metrics on :9090/metrics
+2021-11-14 12:47:29 daemon INFO Starting daemon on TCP address 127.0.0.1:50051
+2021-11-14 12:47:29 daemon INFO Daemon is now listening on 127.0.0.1:50051...
+2021-11-14 12:47:29 daemon INFO Daemon is running.
+2021-11-14 12:47:30 daemon INFO Checking if CLI is Bundled into the IDE
+2021-11-14 12:47:30 daemon INFO Adding libraries dir [dir: /home/xsf/Arduino/libraries, location: user]
+2021-11-14 12:47:30 daemon INFO URL: https://downloads.arduino.cc/packages/package_index.json
+2021-11-14 12:47:30 daemon INFO Updating index [url: https://downloads.arduino.cc/packages/package_index.json]
+2021-11-14 12:47:30 root INFO Git askpass helper is listening on http://127.0.0.1:45059.
+2021-11-14 12:47:30 root INFO Using Git [2.33.1] from the PATH. (/usr/bin/git)
+2021-11-14 12:47:30 root WARN Frontend CommonFrontendContribution.configure is slow, took: 157.8 ms
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/application-package
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/body-parser
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/cookie
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/dompurify
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/express
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/fs-extra
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/lodash.debounce
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/lodash.throttle
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/react
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/react-dom
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/react-virtualized
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/route-parser
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/safer-buffer
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/ws
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/yargs
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/monaco
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/editor
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/multer
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/rimraf
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/tar-fs
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/uuid
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/navigator
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/p-queue
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/preferences
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/editor-preview
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/keymaps
+2021-11-14 12:47:30 root WARN Failed to resolve module: @theia/messages
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/diff
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/mime
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/request
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/atob
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/auth0-js
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/btoa
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/dateformat
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/deepmerge
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/glob
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/google-protobuf
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/js-yaml
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/keytar
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/ncp
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/node-fetch
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/ps-tree
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/react-select
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/react-tabs
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/sinon
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/temp
+2021-11-14 12:47:30 root WARN Failed to resolve module: @types/which
+2021-11-14 12:47:31 root ERROR TypeError: Failed to fetch
+2021-11-14 12:47:32 root INFO Updating index: package_index.json completed.
+2021-11-14 12:47:32 root INFO Updating index: package_index.json.sig completed.
+2021-11-14 12:47:32 daemon INFO Checking signature [error: opening signature file: open /tmp/202447013.sig: no such file or directory, index: /tmp/202447013, signaturefile: /tmp/202447013.sig]
+2021-11-14 12:47:32 daemon INFO Updating libraries index
+2021-11-14 12:47:39 root INFO Updating index: library_index.json.gz completed.
+2021-11-14 12:47:39 root INFO Updating index: library_index.json.sig completed.
+2021-11-14 12:47:39 daemon INFO Checking signature [index: /home/xsf/.arduino15/package_index.json, signaturefile: /home/xsf/.arduino15/package_index.json.sig, trusted: true]
+2021-11-14 12:47:39 daemon INFO Loading hardware from: /home/xsf/.arduino15/packages
+2021-11-14 12:47:39 daemon INFO Loading package builtin from: /home/xsf/.arduino15/packages/builtin
+2021-11-14 12:47:39 daemon INFO Checking existence of 'tools' path: /home/xsf/.arduino15/packages/builtin/tools
+2021-11-14 12:47:39 daemon INFO Loading tools from dir: /home/xsf/.arduino15/packages/builtin/tools
+2021-11-14 12:47:39 daemon INFO Loaded tool [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2021-11-14 12:47:39 daemon INFO Loaded tool [tool: Version: 0.9.2 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-11-14 12:47:39 daemon INFO Loaded tool [tool: Version: 1.3.0-rc1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2021-11-14 12:47:40 daemon INFO starting discovery builtin:serial-discovery process
+2021-11-14 12:47:40 daemon INFO starting discovery builtin:mdns-discovery process
+2021-11-14 12:47:40 daemon INFO started discovery builtin:serial-discovery process
+2021-11-14 12:47:40 daemon INFO sending command HELLO 1 "arduino-cli 0.19.1" to discovery builtin:serial-discovery
+2021-11-14 12:47:40 daemon INFO started discovery builtin:mdns-discovery process
+2021-11-14 12:47:40 daemon INFO sending command HELLO 1 "arduino-cli 0.19.1" to discovery builtin:mdns-discovery
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1
+2021-11-14 12:47:40 daemon INFO from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1
+2021-11-14 12:47:40 daemon INFO sending command START_SYNC to discovery builtin:serial-discovery
+2021-11-14 12:47:40 daemon INFO sending command START_SYNC to discovery builtin:mdns-discovery
+2021-11-14 12:47:40 daemon INFO from discovery builtin:mdns-discovery received message type: start_sync, message: OK
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: start_sync, message: OK
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS0
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS1
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS10
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS11
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS12
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS13
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS14
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS15
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS16
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS17
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS18
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS19
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS2
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS20
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS21
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS22
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS23
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS24
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS25
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS26
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS27
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS28
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS29
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS3
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS30
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS31
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS4
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS5
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS6
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS7
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS8
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyS9
+2021-11-14 12:47:40 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyUSB0
+2021-11-14 12:47:40 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 9360.9 ms
+2021-11-14 12:47:40 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS23
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-11-14 12:47:40 root INFO >>> Restoring the layout state...
+2021-11-14 12:47:40 root INFO <<< Nothing to restore.
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS24
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274) starting instance
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS25
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS26
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS27
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS28
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS29
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS3
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS30
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS31
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS4
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS5
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS6
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root INFO [2d548a9d-3411-416b-a626-62618e4495be] Sync of 5 plugins took: 578.6 ms
+2021-11-14 12:47:40 root INFO [2d548a9d-3411-416b-a626-62618e4495be][marus25.cortex-debug]: Loaded contributions.
+2021-11-14 12:47:40 root INFO [2d548a9d-3411-416b-a626-62618e4495be][arduino.vscode-arduino-tools]: Loaded contributions.
+2021-11-14 12:47:40 root INFO [2d548a9d-3411-416b-a626-62618e4495be][vscode.cpp]: Loaded contributions.
+2021-11-14 12:47:40 root INFO [2d548a9d-3411-416b-a626-62618e4495be][vscode.json]: Loaded contributions.
+2021-11-14 12:47:40 root INFO [2d548a9d-3411-416b-a626-62618e4495be][vscode.json-language-features]: Loaded contributions.
+2021-11-14 12:47:40 root INFO [2d548a9d-3411-416b-a626-62618e4495be] Load contributions of 5 plugins took: 31.1 ms
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS7
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:40 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2021-11-14 12:47:40 root WARN a registered grammar configuration for 'cpp' language is overridden
+2021-11-14 12:47:40 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:40 root INFO  - New port is available on /dev/ttyS8
+2021-11-14 12:47:40 root INFO ------------------------------------------
+2021-11-14 12:47:41 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:41 root INFO  - New port is available on /dev/ttyS9
+2021-11-14 12:47:41 root INFO ------------------------------------------
+2021-11-14 12:47:42 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274): PluginManagerExtImpl/init()
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274): initializing(cortex-debug@0.3.10 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] Debugger contribution has been registered: cortex-debug
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274): initializing(vscode-arduino-tools@0.0.1-beta.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274): initializing(cpp@1.52.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274): initializing(json@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274): initializing(json-language-features@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:47:42 root INFO [hosted-plugin: 8274] PLUGIN_HOST(8274): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2021-11-14 12:47:42 root INFO [2d548a9d-3411-416b-a626-62618e4495be][marus25.cortex-debug]: Started plugin.
+2021-11-14 12:47:42 root INFO [2d548a9d-3411-416b-a626-62618e4495be][arduino.vscode-arduino-tools]: Started plugin.
+2021-11-14 12:47:42 root INFO [2d548a9d-3411-416b-a626-62618e4495be][vscode.cpp]: Started plugin.
+2021-11-14 12:47:42 root INFO [2d548a9d-3411-416b-a626-62618e4495be][vscode.json]: Started plugin.
+2021-11-14 12:47:42 root INFO [2d548a9d-3411-416b-a626-62618e4495be][vscode.json-language-features]: Started plugin.
+2021-11-14 12:47:42 root INFO [2d548a9d-3411-416b-a626-62618e4495be] Start of 5 plugins took: 1300.0 ms
+2021-11-14 12:47:46 root INFO Attached boards and available ports changed:
+2021-11-14 12:47:46 root INFO  - New port is available on /dev/ttyUSB0
+2021-11-14 12:47:46 root INFO ------------------------------------------
+2021-11-14 12:48:18 root WARN Frontend CommonFrontendContribution.configure is slow, took: 144.5 ms
+2021-11-14 12:48:18 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 250.4 ms
+2021-11-14 12:48:18 root ERROR TypeError: Failed to fetch
+2021-11-14 12:48:18 root INFO Board config changed: 
+2021-11-14 12:48:18 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-11-14 12:48:18 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-11-14 12:48:18 root INFO >>> Restoring the layout state...
+2021-11-14 12:48:18 root INFO <<< Nothing to restore.
+2021-11-14 12:48:18 root INFO [hosted-plugin: 8445] PLUGIN_HOST(8445) starting instance
+2021-11-14 12:48:18 monitor-service INFO >>> Disposing monitor service...
+2021-11-14 12:48:18 monitor-service INFO <<< Disposed monitor service.
+2021-11-14 12:48:18 root ERROR Uncaught Exception: 
+2021-11-14 12:48:18 root ERROR Error: Connection got disposed.
+    at Object.dispose (/opt/arduino-ide/resources/app/node_modules/vscode-jsonrpc/lib/main.js:904:25)
+    at /opt/arduino-ide/resources/app/node_modules/vscode-ws-jsonrpc/lib/socket/connection.js:14:41
+    at CallbackList.invoke (/opt/arduino-ide/resources/app/node_modules/vscode-jsonrpc/lib/events.js:62:39)
+    at Emitter.fire (/opt/arduino-ide/resources/app/node_modules/vscode-jsonrpc/lib/events.js:121:36)
+    at closeHandler (/opt/arduino-ide/resources/app/node_modules/vscode-jsonrpc/lib/main.js:240:26)
+    at CallbackList.invoke (/opt/arduino-ide/resources/app/node_modules/vscode-jsonrpc/lib/events.js:62:39)
+    at Emitter.fire (/opt/arduino-ide/resources/app/node_modules/vscode-jsonrpc/lib/events.js:121:36)
+    at WebSocketMessageReader.fireClose (/opt/arduino-ide/resources/app/node_modules/vscode-jsonrpc/lib/messageReader.js:111:27)
+    at WebSocketMessageReader.fireClose (/opt/arduino-ide/resources/app/node_modules/vscode-ws-jsonrpc/lib/socket/reader.js:67:19)
+    at /opt/arduino-ide/resources/app/node_modules/vscode-ws-jsonrpc/lib/socket/reader.js:24:18
+2021-11-14 12:48:29 root WARN Frontend CommonFrontendContribution.configure is slow, took: 134.6 ms
+2021-11-14 12:48:30 root ERROR TypeError: Failed to fetch
+2021-11-14 12:48:30 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 235.8 ms
+2021-11-14 12:48:30 root INFO Board config changed: 
+2021-11-14 12:48:30 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-11-14 12:48:30 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-11-14 12:48:30 root INFO >>> Restoring the layout state...
+2021-11-14 12:48:30 root INFO <<< Nothing to restore.
+2021-11-14 12:48:30 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568) starting instance
+2021-11-14 12:48:30 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2021-11-14 12:48:30 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942] Sync of 5 plugins took: 429.0 ms
+2021-11-14 12:48:30 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][marus25.cortex-debug]: Loaded contributions.
+2021-11-14 12:48:30 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][arduino.vscode-arduino-tools]: Loaded contributions.
+2021-11-14 12:48:30 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][vscode.cpp]: Loaded contributions.
+2021-11-14 12:48:30 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][vscode.json]: Loaded contributions.
+2021-11-14 12:48:30 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][vscode.json-language-features]: Loaded contributions.
+2021-11-14 12:48:30 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942] Load contributions of 5 plugins took: 28.5 ms
+2021-11-14 12:48:30 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2021-11-14 12:48:30 root WARN a registered grammar configuration for 'cpp' language is overridden
+2021-11-14 12:48:31 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568): PluginManagerExtImpl/init()
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568): initializing(cortex-debug@0.3.10 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] Debugger contribution has been registered: cortex-debug
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568): initializing(vscode-arduino-tools@0.0.1-beta.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568): initializing(cpp@1.52.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568): initializing(json@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568): initializing(json-language-features@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2021-11-14 12:48:31 root INFO [hosted-plugin: 8568] PLUGIN_HOST(8568): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2021-11-14 12:48:31 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][marus25.cortex-debug]: Started plugin.
+2021-11-14 12:48:31 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][arduino.vscode-arduino-tools]: Started plugin.
+2021-11-14 12:48:31 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][vscode.cpp]: Started plugin.
+2021-11-14 12:48:31 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][vscode.json]: Started plugin.
+2021-11-14 12:48:31 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942][vscode.json-language-features]: Started plugin.
+2021-11-14 12:48:31 root INFO [6376dc25-63ca-42cd-a55b-a883dd5ce942] Start of 5 plugins took: 990.5 ms
+2021-11-14 12:48:32 monitor-service INFO >>> Disposing monitor service...
+2021-11-14 12:48:32 monitor-service INFO <<< Disposed monitor service.
+2021-11-14 12:48:36 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:48:36 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:48:36 root ERROR Request compile failed with error: 3 INVALID_ARGUMENT: Missing FQBN (Fully Qualified Board Name)
+2021-11-14 12:48:50 root INFO Board config changed: 
+2021-11-14 12:49:11 root INFO Board config changed: 
+2021-11-14 12:49:30 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:30 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:30 root ERROR Request compile failed with error: 3 INVALID_ARGUMENT: Missing FQBN (Fully Qualified Board Name)
+2021-11-14 12:49:34 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:34 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:34 root ERROR Request upload failed with error: 3 INVALID_ARGUMENT: Missing FQBN (Fully Qualified Board Name)
+2021-11-14 12:49:35 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:35 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:35 root ERROR Request upload failed with error: 3 INVALID_ARGUMENT: Missing FQBN (Fully Qualified Board Name)
+2021-11-14 12:49:35 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:35 daemon INFO inventory.Store.ConfigFileUsed() /home/xsf/.arduino15/inventory.yaml
+2021-11-14 12:49:35 root ERROR Request upload failed with error: 3 INVALID_ARGUMENT: Missing FQBN (Fully Qualified Board Name)
+2021-11-14 12:49:37 monitor-service INFO >>> Disposing monitor service...
+2021-11-14 12:49:37 monitor-service INFO <<< Disposed monitor service.
