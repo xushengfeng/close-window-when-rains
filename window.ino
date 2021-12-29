@@ -118,27 +118,26 @@ void loop() {
     else { // 无水
       open_window();
     }
-    delay(100); // Delay a little bit to improve simulation performance
+    delay(500); // Delay a little bit to improve simulation performance
   }
 }
 
 
 void open_window() {
-  if (myservo.read() != 125) {
-    digitalWrite(LED_BUILTIN, HIGH);
-    for (pos = 10; pos <= 125; pos ++) {
-      myservo.write(pos);
-      delay(5);
-    }
-  }
+  //if (myservo.read() != 125) {
+  digitalWrite(LED_BUILTIN, HIGH);
+  //for (pos = 10; pos <= 125; pos ++) {
+  myservo.write(125);
+  // delay(5);
+  // }
+  //}
 }
 
 void close_window() {
-  if (myservo.read() != 10) {
-    digitalWrite(LED_BUILTIN, LOW);
-    for (pos = 120; pos >= 10; pos --) {
-      myservo.write(pos);
-      delay(5);
-    }
-  }
+  // if (myservo.read() != 10) {
+  digitalWrite(LED_BUILTIN, LOW);
+  //for (pos = 120; pos >= 10; pos --) {
+  myservo.write(10);
+  //   delay(5);
+  //   }
 }
